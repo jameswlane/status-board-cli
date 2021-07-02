@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.22
+    - 14.14.25
+    - 14.14.28
+    - 14.14.31
+    - 14.14.32
+    - 14.14.34
+    - 14.14.35
+    - 14.14.37
+  - dependency-name: globby
+    versions:
+    - 11.0.2
+  - dependency-name: semver
+    versions:
+    - 7.3.4
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: "@types/ejs"
+    versions:
+    - 3.0.5
+  - dependency-name: ejs
+    versions:
+    - 3.1.5
+  - dependency-name: typescript
+    versions:
+    - 3.9.7
