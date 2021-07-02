@@ -15,7 +15,7 @@
     "debug": "4.1.1",
     "ejs": "2.7.2",
     "mkdirp": "0.5.1",
-    "read-package-json": "2.1.1",
+    "read-package-json": "3.0.0",
     "sanitize-filename": "1.6.3",
     "semver": "6.3.0",
     "status-board": "1.1.83",
